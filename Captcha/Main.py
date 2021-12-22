@@ -16,6 +16,7 @@ import tensorflow.keras
 import pandas as pd
 import sklearn as sk
 import numpy as np
+from PIL import Image
 
 #%%
 #Test run for detecting Tensorflow
@@ -85,5 +86,22 @@ def TFDataSetBenchMark(epoch= 10):
 #%%
 #uncomment to test TF and Benchmark your GPU/CPU speed
 TFDataSetBenchMark()
+
+#%%
+
+#TODO
+#Load each image from the folder
+#add label, the file title
+#detect the distinct characters from the images
+
+
+filepath = r"..../Github/TextCaptchaPR/Captcha/captchaImages"
+img = Image.open(open(filepath, 'rb'))
+
+image_array = tf.keras.preprocessing.image.img_to_array(img)
+print(image_array.shape)
+print(image_array)
+
+
 
 #%%
