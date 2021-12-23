@@ -10,3 +10,4 @@ To read more about recent developments in text-based CAPTCHAs, please refer to t
 2. [Breaking Microsoft’s CAPTCHA](https://courses.csail.mit.edu/6.857/2016/files/hong-lopezpineda-rajendran-recansens.pdf)
 3. [CAPTCHA Breaking with Deep Learning](http://cs229.stanford.edu/proj2017/final-reports/5239112.pdf)
 
+The data set used in this document is [CAPTCHA Dataset](https://www.kaggle.com/parsasam/captcha-dataset)
